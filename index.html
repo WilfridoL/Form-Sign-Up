@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign-up Form</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="bck"><h1>WELCOME</h1></div>
+    <div class="form-container">
+      <h2>Get Started</h2>
+      <form action="#" method="get">
+          <div class="block">
+            <div class="name">
+              <input type="text" name="first-name" id="first" required>
+              <label for="first">*First Name</label>
+            </div>
+            <div class="name lf">
+              <input type="text" name="last-name" id="last" required>
+              <label for="last">*Last Name</label>
+            </div>
+          </div>
+          <div class="block">
+            <div class="email">
+              <input type="email" name="email" id="email" required>
+              <label for="email">*Email</label>
+            </div>
+            <div class="sex">
+              <label for="sex">Sex</label> 
+              <div class="inline">
+                <p><input type="radio" name="sex" id="sex" value="man"><span>Man </span></p>
+              <p><input type="radio" name="sex" id="sex" value="woman"><span>Woman</span></p>
+              <p><input type="radio" name="sex" id="sex" value="other"><span>Other</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="block">
+            <div class="password">
+              <input type="password" name="password" id="password" required>
+              <label for="password">*Password</label>
+            </div>
+            <div class="password lf">
+              <input type="password" name="password-confirm" id="password-confirm" required>
+              <label for="password-confirm">*Password Confirm</label>
+            </div>
+          </div>
+          <div class="sub">
+            <button type="submit">SIGN UP</button>
+            <p>Already signed up? <span>Sign in</span></p>
+          </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
